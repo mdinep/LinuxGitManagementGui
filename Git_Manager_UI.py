@@ -22,9 +22,8 @@ comment = "none"
 def createNew():
 	if directory != "empty":
 		os.system("git checkout master")
-		time.sleep(1)
+		os.system("git pull")
 		os.system("git checkout -b " + e.get())
-		time.sleep(1)
 		os.system("git push origin")
 		textBox.delete(1.0, END)
 		textBox.insert(END, getBranches())
