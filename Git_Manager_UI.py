@@ -1,4 +1,12 @@
 #! /usr/bin/env python
+
+#################################################################################
+#Linux Git Gui, v0.2 #
+#Written by Matthew Dinep #
+#September, 8th, 2014 #
+#################################################################################
+
+
 import os,sys
 import time
 import getpass
